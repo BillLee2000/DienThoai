@@ -1,0 +1,41 @@
+﻿:root {
+    --while-color: #fff;
+    --back-color: rgb(7,29,59);
+    --yellow-color: #C09440;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+html {
+    line-height: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    color: var(--while-color);
+}
+
+li {
+    list-style: none;
+}

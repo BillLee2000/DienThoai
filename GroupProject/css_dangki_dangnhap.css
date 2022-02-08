@@ -1,0 +1,80 @@
+﻿body {
+}
+html {
+    background-color: white ;
+
+}
+.main {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: 176px auto;
+   
+    box-shadow: 2px 10px 40px rgba(22,20,19,0.4);
+    
+}
+.dk {
+    width: 500px;
+    height: 750px;
+    background-color: white;
+    margin: 176px auto;
+    box-shadow: 2px 10px 40px rgba(22,20,19,0.4);
+}
+.id-sc{
+    margin-left:-57px;
+}
+.welcome {
+    font-size: 100px;
+    font-family: courier,arial,helvetica;
+    position: relative;
+
+    font-size:30px;
+}
+.group{
+    text-align:center;
+}
+.dangky {
+    font-family: courier,arial,helvetica;
+}
+.input{
+    padding:10px;
+    border-radius:10px;
+    outline:none;
+    margin:0 24px;
+   
+   }
+.hide{
+    margin-top:1000px;
+}
+.input_dk {
+    transform: translateX(-114px);
+}
+.input .input_bt {
+    transform: translateX(-66px);
+}
+.input_bt {
+    transform: translateX(-66px);
+}
+#lable4{
+    margin-right:50px;
+}
+.btn {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transform:translateX(90px);
+}
+.btn-dk {
+    transform: translateX(-20px);
+    margin-top:20px;
+}
+.sign-up {
+    color: #9FDEAF;
+    border-radius: 27px;
+    width: 50%;
+    text-align: center;
+    margin: 63px 128px;
+    transform: translateY(15px);
+    border: 1px solid white;
+}

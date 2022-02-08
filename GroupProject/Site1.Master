@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="GroupProject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Thai Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="main.css" rel="stylesheet" />
+    <link href="base.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header id="header">
+            <div class="search">
+                <ul class="search-contact">
+                    <li class="search-contact__item ">
+                        <i class="fas fa-phone"></i>
+                        <p>+ 84 934 72 74 72</p>
+                    </li>
+                    <li class="search-contact__item">
+                        <i class="fas fa-envelope-square">
+                        </i>
+                        <p>DTU@gmail.com</p>
+                    </li>
+
+                </ul>
+                <div class="search-icon">
+
+        <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/DangNhap.aspx">      <i class="fas fa-user-alt"></i> </asp:HyperLink>
+          
+                </div>
+            </div>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item">
+                        
+                          <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/TrangChu.aspx#banner">THỰC ĐƠN</asp:HyperLink> 
+                    </li>
+                    <li class="nav-list__item">
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/KhuyenMai.aspx">KHUYẾN MÃI</asp:HyperLink>
+                       
+                    </li>
+                    <li class="nav-list__item">
+                          <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/TrangChu.aspx#our">VỀ CHÚNG TÔI</asp:HyperLink>
+                        
+                    </li>
+                    <li class="nav-list__item nav-list__item-logo">
+                       
+                               <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/TrangChu.aspx">
+
+
+
+                                    <img src="./images/logo.png" alt="Alternate Text" />
+                               </asp:HyperLink>
+                           
+                        
+                    </li>
+
+                      <li class="nav-list__item">
+                          <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/DatHang.aspx">ĐẶT HÀNG</asp:HyperLink>
+                        
+                    </li>
+                 
+                    <li class="nav-list__item">
+                          <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/TrangChu.aspx#linkcontact">LIÊN HỆ</asp:HyperLink>
+                        
+                    </li>
+                    <li class="nav-list__item">
+                       <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/BookTable.aspx">ĐẶT BÀN</asp:HyperLink>
+                    </li>
+                </ul>
+            </div>
+        </header>
+   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+       
+
+        
+    </form>
+</body>
+</html>

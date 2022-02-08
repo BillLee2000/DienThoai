@@ -1,0 +1,43 @@
+﻿
+#contact {
+    padding-top: 0;
+    padding-bottom: 800px;
+}
+
+.contact-main {
+    margin: 100px auto;
+}
+
+.discount-text {
+    font-weight: 200;
+    color: #4a4a4a;
+    opacity: 0.7;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.img-nenckm {
+    position: relative;
+}
+
+#footer {
+    padding-top: 78px;
+}
+
+.feedback {
+    position: absolute;
+    top: 400px;
+    color: aliceblue;
+    z-index: 10;
+}
+
+.feedback-item {
+    padding: 10px;
+}
+.lb-check {
+    color: #757575;
+}
+.btn-db{
+    margin-left:50px;
+}
